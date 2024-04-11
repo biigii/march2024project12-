@@ -27,30 +27,17 @@ h1 {
   padding: 0 20px;
 }
 
-nav ul {
-  list-style-type: none;
-}
-nav ul li {
-  display: inline-block;
-  margin: 50px;
+table {
+  border-collapse: collapse;
 }
 
-figure li {
-  list-style: none;
-  display: inline-block;
+th {
+  background-color: #f55;
+  color: #fff;
 }
 
-ul.fruits {
-  background-color: rgb(230, 136, 136);
-  margin-bottom: 20px;
-  list-style-position: outside;
-  list-style-type: lower-alpha;
-}
-ul.fruits li {
-  font-size: 2em;
-}
-
-.fruits2 {
-  background-color: #f44;
-  margin-bottom: 20px;
+td,
+th {
+  border: 2px solid #f55;
+  padding: 10px;
 }/*# sourceMappingURL=styles.css.map */

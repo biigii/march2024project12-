@@ -27,39 +27,19 @@ h1 {
     padding: 0 20px;
 }
 
-nav {
-    ul {
-        list-style-type: none;
-        li {
-            display: inline-block;
-            margin: 50px;
-        }
-    }
+table {
+    border-collapse: collapse;
 }
 
-figure {
-    // ul {
-    //     list-style: none;
-    // }
-    li {
-        list-style: none;
-        display: inline-block;
-    }
+th {
+    background-color: #f55;
+    color: #fff;
+}
+
+td, 
+th {
+    border: 2px solid #f55;
+    padding: 10px;
 }
 
 
-ul.fruits {
-    li {
-        font-size: 2em;
-    }
-    // list-style: none;
-    background-color: rgb(230, 136, 136);
-    margin-bottom: 20px;
-    list-style-position: outside; // inside or outside
-    list-style-type:lower-alpha
-}
-
-.fruits2 {
-    background-color: #f44;
-    margin-bottom: 20px;
-}

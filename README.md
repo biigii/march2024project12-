@@ -13,3 +13,5 @@
     }
   ],
 ```
+
+- [HTML <table>](https://codepen.io/behshad/pen/LYGgNPg)
