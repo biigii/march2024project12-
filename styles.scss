@@ -42,4 +42,45 @@ th {
     padding: 10px;
 }
 
+.list {
+    border: 2px solid;
+    margin: 20px;
+    list-style-position: inside;
+    list-style: none;
+    // .item-4 {
+    //     background-color: #f33;
+    // }
+
+    li:first-child {
+        background-color: #f33;
+    }
+
+    li:last-child {
+        background-color: #00f;
+    }
+
+    li:nth-child(3) {
+        background-color: #0f0;
+    }
+}
+
+nav {
+    margin-top: 50px;
+    text-align: center;
+    a:nth-child(2) {
+        font-size: 2em;
+    }
+}
+
+.text {
+    border: 2px dashed;
+    p:first-of-type {
+        background-color: rgb(241, 162, 162);
+    }
+
+    p:last-of-type {
+        background-color: rgb(135, 52, 174);
+    }
+}
+
 

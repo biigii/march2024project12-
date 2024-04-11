@@ -15,3 +15,4 @@
 ```
 
 - [HTML <table>](https://codepen.io/behshad/pen/LYGgNPg)
+- [CSS Pseudo Class](https://codepen.io/behshad/pen/jKjPJa)

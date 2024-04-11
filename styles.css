@@ -40,4 +40,38 @@ td,
 th {
   border: 2px solid #f55;
   padding: 10px;
+}
+
+.list {
+  border: 2px solid;
+  margin: 20px;
+  list-style-position: inside;
+  list-style: none;
+}
+.list li:first-child {
+  background-color: #f33;
+}
+.list li:last-child {
+  background-color: #00f;
+}
+.list li:nth-child(3) {
+  background-color: #0f0;
+}
+
+nav {
+  margin-top: 50px;
+  text-align: center;
+}
+nav a:nth-child(2) {
+  font-size: 2em;
+}
+
+.text {
+  border: 2px dashed;
+}
+.text p:first-of-type {
+  background-color: rgb(241, 162, 162);
+}
+.text p:last-of-type {
+  background-color: rgb(135, 52, 174);
 }/*# sourceMappingURL=styles.css.map */
