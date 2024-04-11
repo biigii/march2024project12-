@@ -6,7 +6,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -31,21 +32,66 @@ h1 {
   border: 2px solid;
   height: 400px;
   width: 400px;
-  padding: 20px;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+@keyframes anything {
+  to {
+    translate: 200px 200px;
+  }
+}
+@keyframes fade {
+  0% {
+    background-color: #e91193;
+    border-radius: none;
+  }
+  50% {
+    scale: 2;
+  }
+  100% {
+    background-color: #0965ee;
+    border-radius: 50%;
+  }
+}
+.animate-me {
+  animation: pulse 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 0;
+  }
 }
 .btn {
-  width: 120px;
+  width: 150px;
   height: 40px;
+  margin: 50px auto;
   display: block;
-  margin: 20px auto;
-  text-align: center;
-  line-height: 40px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background-color: #ec0e0e;
-  color: #fff;
-  transition: translate 0.3s;
+  animation-name: shake;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
 }
 .btn:hover {
-  translate: 1px 1px;
+  animation-play-state: running;
+}
+
+@keyframes shake {
+  to {
+    transform: skew(1deg, 1deg);
+  }
 }/*# sourceMappingURL=styles.css.map */

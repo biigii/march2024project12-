@@ -17,3 +17,4 @@
 - [HTML <table>](https://codepen.io/behshad/pen/LYGgNPg)
 - [CSS Pseudo Class](https://codepen.io/behshad/pen/jKjPJa)
 - [W3C Accessibility](https://codepen.io/behshad/pen/rNPMKgK)
+- [CSS Animation](https://codepen.io/behshad/pen/rNwemxG)
