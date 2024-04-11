@@ -28,8 +28,16 @@ h1 {
   padding: 0 20px;
 }
 
-svg {
-  width: 400px;
-  height: 400px;
-  border: 1px dotted;
+section {
+  border: 2px dashed;
+  height: 500px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section p {
+  background-color: #ed9e0d;
+  font-size: 4em;
 }/*# sourceMappingURL=styles.css.map */

@@ -28,8 +28,29 @@ h1 {
   padding: 0 20px;
 }
 
-svg {
-    width: 400px;
-    height: 400px;
-    border: 1px dotted
+// article {
+//     display: flex;
+// }
+
+section {
+    border: 2px dashed;
+    height: 500px;
+    // when we work with display flex (grid) we mostly work with parents
+    display: flex;
+    gap: 10px;
+    flex-direction: row; // default
+
+    // start end and center
+    justify-content: space-evenly;
+    align-items: center;
+
+    p{
+        background-color: #ed9e0d;
+        font-size: 4em;
+        // flex-basis: 100%;
+        &:first-child {
+            // 100% of free space
+            // flex-basis: 100%;
+        }
+    }
 }
